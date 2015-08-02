@@ -2,7 +2,7 @@
 
 Framer.js module for making comments in your prototypes
 
-![Comment](https://s3.amazonaws.com/f.cl.ly/items/1K0H1z1z0G1x0M3J1w3h/button%20comment.png)
+![Comment](https://s3.amazonaws.com/f.cl.ly/items/2Y3t3X1w3S2d3X3W270B/commentmodule.gif)
 
 ## Installation
 
