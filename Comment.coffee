@@ -28,14 +28,16 @@ class module.exports extends Layer
 			html: options.text
 		textarea.style =
 			fontSize: "13px"
-			padding: "0px 10px"
+			padding: "10px"
 			color: "white"
 			fontFamily: "Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+			lineHeight: "1.2em"
 		sizeAffectingStyles =
 			fontSize: textarea.style["font-size"]
 			fontWeight: textarea.style["font-weight"]
 			padding: textarea.style["padding"]
 			fontFamily: textarea.style["font-family"]
+			lineHeight: textarea.style["line-height"]
 		constraints = {width: 200} if options.text.length > 35
 		textarea.frame = Utils.textSize options.text, sizeAffectingStyles, constraints
 		@on Events.MouseOver, -> textarea.visible = true
