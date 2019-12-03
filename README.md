@@ -30,19 +30,3 @@ More info about how to install modules in Framer: [FramerJS Docs - Modules](http
 		text: "this feature is not yet implemented in the prototype"
 		midX: page.screenFrame.x
 		midY: page.screenFrame.y
-
-### Generate comments from your imported layers
-
-![From import](https://s3.amazonaws.com/f.cl.ly/items/2G462k1P0M0p3Y3v062C/notes.png)
-
-	for note in sketch.notes.subLayers
-		nameWithoutUnderscore = note.name.replace(/_/g,' ')
-		new Comment
-			text: nameWithoutUnderscore
-			x: note.screenFrame.x
-			y: note.screenFrame.y
-		note.destroy()
-
-##Contact
-
-Twitter: [@andreaswah](http://twitter.com/andreaswah)
